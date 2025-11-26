@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	float a, b, c, d;
+	printf("Harcanan elektrik miktarini giriniz");
+	scanf("%f",&b);
+	printf("Birim fiyati giriniz");
+	scanf("%f",&c);
+	printf("Abone ücretini giriniz");
+	scanf("%f",&d);
+	a=b*c+d;
+	printf("Hesaplanan fatura miktarini =%.2f",a);
+}
