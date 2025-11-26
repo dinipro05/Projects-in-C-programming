@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{	
+	float r,cevre,alan;
+	const float PI=3.14;
+	printf("Dairenin yaricapini giriniz");
+	scanf("%f",&r);
+	cevre=2*PI*r;
+	alan=PI*r*r;
+	printf("Dairenin cevresi:%d\n",cevre);
+	printf("Dairenin alani:%d",alan);
+    return 0;
+}
