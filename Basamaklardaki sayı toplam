@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+	int sayi,bolum,kalan,toplam;
+	toplam=0;
+	printf("4 Basamakli sayi giriniz");
+	scanf("%d",&sayi);
+	bolum=sayi/1000;
+	toplam +=bolum;
+	kalan=sayi%1000;
+	bolum=kalan/100;
+	toplam +=bolum;
+	kalan=kalan%100;
+	bolum=kalan/10;
+	toplam +=bolum;
+	kalan=kalan%10;
+	toplam +=kalan;
+	printf("Basamaklardaki sayilarin toplami= %d",toplam);
+}
