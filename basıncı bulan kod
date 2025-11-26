@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	int sicaklik;
+	float basinc,molSayisi,hacim,Rsayisi;
+	
+	printf("Kabin hacmini giriniz");
+	scanf("%f",&hacim);
+	printf("Kaptaki sicakligi giriniz.");
+	scanf("%d",&sicaklik);
+	printf("Kaptaki mol sayisini giriniz");
+	scanf("%f",&molSayisi);
+	printf("R sayisini giriniz");
+	scanf("%f",&Rsayisi);
+	basinc=(molSayisi*Rsayisi*sicaklik)/hacim;
+	printf("Gaz basinci=%.2f\n",basinc);
+}
