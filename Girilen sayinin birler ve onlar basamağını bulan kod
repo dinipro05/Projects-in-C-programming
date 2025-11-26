@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	int sayi,birlerbasamagi,onlarbasamagi;
+	printf("Sayiyi giriniz");
+	scanf("%d",&sayi);
+	birlerbasamagi=sayi%10;
+	onlarbasamagi=(sayi%100)/10;
+	printf("girilen sayinin birler basamagi=%d\n",birlerbasamagi);
+	printf("girilen sayinin onlar basamagi=%d\n",onlarbasamagi);
+
+}
