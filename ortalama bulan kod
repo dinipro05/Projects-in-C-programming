@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	float a,b,c,d,ort;
+	printf("4 adet sayi giriniz");
+	scanf("%f%f%f%f",&a,&b,&c,&d);
+	ort=(a+b+c+d)/4;
+	printf("Aritmeik ortalama=%f\n",ort);
+	return 0;
+}
